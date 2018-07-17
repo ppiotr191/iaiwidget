@@ -1,5 +1,4 @@
 <?php 
-
 namespace AppWidget\dict;
 
 interface IDict{

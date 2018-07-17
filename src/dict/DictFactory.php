@@ -1,5 +1,4 @@
 <?php
-
 namespace AppWidget\dict;
 
 abstract class DictFactory{

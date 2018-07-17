@@ -1,11 +1,9 @@
 <?php
-
 namespace AppWidget\dict;
 
 class Status implements IDict{
-    
     private $values;
-
+    
     public function __construct(){
         $this->values = [
             'finished_ext' => 'Realizowane w programie F/K',
@@ -25,7 +23,6 @@ class Status implements IDict{
             'canceled' => 'Klient anulował',
         ];
     }
-
     public function getValues(){
         return $this->values;
     }

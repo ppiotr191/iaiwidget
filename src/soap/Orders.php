@@ -1,12 +1,10 @@
 <?php 
-
 namespace AppWidget\soap;
 
 use AppWidget\config\Config;
 use AppWidget\dict\StatusFactory;
 
 class Orders {
-
     private $clientLogin;
     private $orderID;
 
@@ -14,7 +12,6 @@ class Orders {
         $this->clientLogin = $clientLogin;
         $this->orderID = $orderID;
     }
-
     public function createRequest(){
         $request = [];
         $request['get'] = [];
@@ -30,9 +27,7 @@ class Orders {
         
         return $request;
     }
-
     public function getStatusFromResponse(){
-
         $wsdl = Config::WSDL_PATH . '/wsdl';
         $binding = array();
         $binding['location'] = Config::WSDL_PATH;
@@ -55,11 +50,9 @@ class Orders {
                 'status' => $orderStatusSlug
             ];
         }
-
         return [
             'found' => 0,
             'msg' => $response->errors->faultString
         ];
-        
     }
 }

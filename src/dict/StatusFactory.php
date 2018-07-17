@@ -1,5 +1,4 @@
 <?php 
-
 namespace AppWidget\dict;
 
 class StatusFactory extends DictFactory{

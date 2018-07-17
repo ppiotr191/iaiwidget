@@ -1,0 +1,16 @@
+{
+    "name": "ppiotr191/iaiwidget",
+    "description": "recruitment task",
+    "authors": [
+        {
+            "name": "ppiotr",
+            "email": "ppiotrowski927@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "AppWidget\\": "src/"
+        }
+    },
+    "require": {}
+}

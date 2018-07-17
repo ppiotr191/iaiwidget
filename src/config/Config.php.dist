@@ -1,0 +1,10 @@
+<?php 
+
+namespace AppWidget\config;
+
+class Config {
+    const WSDL_PATH = 'http://trening6.iai-shop.com/api/?gate=orders/get/73/soap';
+    const WSDL_LOGIN = ''; //fill in the right login here
+    const WSDL_PASSWORD = ''; //fill in the right password here
+
+}

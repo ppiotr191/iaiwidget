@@ -1,1 +1,3 @@
 # iaiwidget
+
+Zadanie testowe.
